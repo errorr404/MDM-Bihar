@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202763412444",
+    "firebase_url": "https://mdmbihar-65302.firebaseio.com",
+    "project_id": "mdmbihar-65302",
+    "storage_bucket": "mdmbihar-65302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202763412444:android:ef679ce2fd1e4fe9",
+        "android_client_info": {
+          "package_name": "com.example.dixit.mdmbihar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202763412444-fkod3ukult3jn4uncq9fqdocd369141f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dixit.mdmbihar",
+            "certificate_hash": "10f1820c442384e8e5c4bcf3e72b393ef3ecb43d"
+          }
+        },
+        {
+          "client_id": "202763412444-lub0jf77i2pj7l7ejab4rbl51boucelq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_hVMLYP0xiSvSLz5-8VHqvpdC_kdwARE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202763412444-lub0jf77i2pj7l7ejab4rbl51boucelq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

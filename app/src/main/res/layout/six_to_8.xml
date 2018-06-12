@@ -1,0 +1,120 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dixit.mdmbihar.MainActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Select Day- 6 to 8"
+        android:textAlignment="center"
+        android:textColor="#00AFE8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monday6"
+        android:layout_width="118dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="सोमवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/tuesday6"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="मंगलवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monday6" />
+
+    <Button
+        android:id="@+id/wednesday6"
+        android:layout_width="118dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="बुधवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesday6" />
+
+    <Button
+        android:id="@+id/thursday6"
+        android:background="@drawable/buttonbackground"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="गुरूवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wednesday6" />
+
+    <Button
+        android:id="@+id/friday6"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="शुक्रवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thursday6" />
+
+    <Button
+        android:id="@+id/saturday6"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="शनिवार"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friday6" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="321dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bcg1"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saturday6"
+        app:layout_constraintVertical_bias="1.0"></com.google.android.gms.ads.AdView>
+</android.support.constraint.ConstraintLayout>
